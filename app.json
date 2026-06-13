@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "CukaiBro",
+    "slug": "cukaibro-mobile",
+    "scheme": "cukaibro",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.cukaibro.app"
+    },
+    "android": {
+      "package": "com.cukaibro.app"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "CukaiBro needs access to your photos so you can upload receipt images.",
+          "cameraPermission": "CukaiBro needs camera access so you can snap a photo of your receipts."
+        }
+      ]
+    ]
+  }
+}
